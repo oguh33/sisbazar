@@ -1,0 +1,6 @@
+[13-Oct-2019 00:54:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/abazaria/public_html/abazaria/module/Conexao.php:326
+Stack trace:
+#0 /home1/abazaria/public_html/abazaria/module/Authentication.php(23): Conexao->query('SELECT * FROM u...', Array)
+#1 /home1/abazaria/public_html/abazaria/login.php(6): Authentication->login(Array)
+#2 {main}
+  thrown in /home1/abazaria/public_html/abazaria/module/Conexao.php on line 326
